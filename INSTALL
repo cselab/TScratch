@@ -1,0 +1,77 @@
+TScratch download
+
+TScratch is a software tool developed to automatically analyze wound healing
+assays (scratch assays). It is available as a stand-alone application using
+Matlab Compiler on Macintosh (Intel) OS X and PC (Windows) platforms. The
+downloadable files below are available in two forms, one including the Matlab
+Compiler Runtime (MCR) v7.8 engine, and one without it. If MCR 7.8 is not
+installed on your computer, you will need the form including MCR. If you
+already have MCR 7.8 installed (for example if you have MATLAB R2008a with
+Matlab Compiler; you can check which version of MCR you have by writing
+"mcrversion" at the MATLAB prompt), you can download the smaller file.
+
+The manual with installation instructions is included in the zip-files
+(TScratch_manual.pdf), but is also available here:
+http://www.cse-lab.ethz.ch/images/software/tscratch_manual.pdf. Some
+troubleshooting hints are provided below.
+
+=======================================
+
+The following TScratch packages are available at our repository.
+
+Macintosh (Intel)
+
+Please download the proper file and extract it using Archive Utility
+(tscratch_nomcr_pkg.zip - a version which requires the user to have Matlab
+Compiler Runtime (MCR) v7.8 installed (3 MB), tscratch_pkg_simple.zip - a
+stand-alone application, includes MCR (206 MB)). Open TScratch_manual.pdf and
+read further installation instructions there. The installation procedure was
+developed by Will Ashby, Vanderbilt University.
+
+Windows
+
+Please download the proper file and extract it (tscratch_nomcr_win.zip - a
+version which requires the user to have Matlab Compiler Runtime (MCR) v7.8
+installed (3 MB), tscratch_win.zip - a stand-alone application, includes MCR
+(231 MB)).  Then double-click on TScratch_win.exe to unpack the program and
+install MCR (if the version with MCR was downloaded). Then run TScratch.exe to
+start the program. To the best of our knowledge the software works in Windows
+XP, Vista and Windows 7. It was not tested on Windows 8, but might work there
+too. We advise that you download and install the version with MCR in any case,
+since it will be incompatible to more recent Matlab versions. In short you
+should download the the Windows version with MCR, unzip it and execute the
+resulting "TScratch_win" executable. This will only install MCR and should run
+without errors. You can then execute the "TScratch" executable.
+
+    Troubleshooting
+
+    We have observed that on some machines depending on what is already
+    installed, some libraries are not automatically installed. In such cases
+    TScratch may fail to open without showing any errors. If this happens try
+    the following: Find where MCR was installed (by default this is in
+    "C:\Program Files (x86)\MATLAB\MATLAB Compiler Runtime\v78") Within that
+    folder, you can find "vcredist_x86.exe" in the folder "bin\win32". Run this
+    to install the missing libraries.
+
+Source Code
+
+You can also download the source code of TScratch (TScratch_src.zip). You will
+need Matlab (R2008a or newer) and the CurveLab library (available at
+www.curvelet.org) to run it.  Please consult the README file included in the
+source code package for further instructions.
+
+=======================================
+
+Sample data set
+
+This zip-file contains a sample data set from a wound-healing experiment:
+http://www.cse-lab.ethz.ch/images/software/tscratch_sampledata.zip (5 MB).
+Download and unpack it to try out the TScratch program on some real data.
+
+=======================================
+
+Authors
+
+TScratch was developed by Tobias Gebäck and Martin Schulz, ETH Zürich.  The
+Software is provided as-is, but very limited support might be provided by the
+current members of the lab.
