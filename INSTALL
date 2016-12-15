@@ -25,9 +25,7 @@ Please download the proper file and extract it using Archive Utility
 (tscratch_nomcr_pkg.zip - a version which requires the user to have Matlab
 Compiler Runtime (MCR) v7.8 installed (3 MB), tscratch_pkg_simple.zip - a
 stand-alone application, includes MCR (206 MB)). The second file can be downloaded
-from here: <a href="http://www.cse-lab.ethz.ch/images/software/tscratch_pkg_simple.zip">tscratch_pkg_simple.zip</a>
-
-
+from here: http://www.cse-lab.ethz.ch/images/software/tscratch_pkg_simple.zip.
 Open TScratch_manual.pdf and read further installation instructions there. The installation procedure was
 developed by Will Ashby, Vanderbilt University.
 
@@ -37,7 +35,7 @@ Please download the proper file and extract it (tscratch_nomcr_win.zip - a
 version which requires the user to have Matlab Compiler Runtime (MCR) v7.8
 installed (3 MB), tscratch_win.zip - a stand-alone application, includes MCR
 (231 MB)). The second file can be downloaded from here:
-<a href="http://www.cse-lab.ethz.ch/images/software/tscratch_win.zip">tscratch_win.zip</a>
+http://www.cse-lab.ethz.ch/images/software/tscratch_win.zip. 
 Then double-click on TScratch_win.exe to unpack the program and
 install MCR (if the version with MCR was downloaded). Then run TScratch.exe to
 start the program. To the best of our knowledge the software works in Windows
