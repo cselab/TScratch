@@ -29,6 +29,12 @@ from here: http://www.cse-lab.ethz.ch/images/software/tscratch_pkg_simple.zip.
 Open TScratch_manual.pdf and read further installation instructions there. The installation procedure was
 developed by Will Ashby, Vanderbilt University.
 
+According to the Installation Instructions included in the second file (tscrach_pkg_simple.zip),
+the Matlab runtime (v78) must be installed first and then TScratch must be into the Application folder.
+The older version of the Matlab runtime does not interfere with the existing Matlab installation.
+TScratch might fail to start (e.g. macOS Sierra) due to a missing function in libz.1.dylib.
+In that case delete that file from the /Applications/MATLAB/MATLAB_Compiler_Runtime/v78/bin/maci folder.
+
 Windows
 
 Please download the proper file and extract it (tscratch_nomcr_win.zip - a
@@ -77,4 +83,4 @@ Authors
 
 TScratch was developed by Tobias Gebäck and Martin Schulz, ETH Zürich.  The
 Software is provided as-is, but very limited support might be provided by the
-current members of the lab.
+current members of the CSE lab (www.cse-lab.ethz.ch).
