@@ -30,8 +30,9 @@ Open TScratch_manual.pdf and read further installation instructions there. The i
 developed by Will Ashby, Vanderbilt University.
 
 According to the Installation Instructions included in the second file (tscrach_pkg_simple.zip),
-the Matlab runtime (v78) must be installed first and then TScratch must be into the Application folder.
+the Matlab runtime (v78) must be installed first and then TScratch must be copied into the Application folder.
 The older version of the Matlab runtime does not interfere with the existing Matlab installation.
+Moreover, you must have XQuartz installed (https://www.xquartz.org/). 
 TScratch might fail to start (e.g. macOS Sierra) due to a missing function in libz.1.dylib.
 In that case delete that file from the /Applications/MATLAB/MATLAB_Compiler_Runtime/v78/bin/maci folder.
 
