@@ -12,8 +12,8 @@ Matlab Compiler; you can check which version of MCR you have by writing
 
 The manual with installation instructions is included in the zip-files
 (TScratch_manual.pdf), but is also available here:
-http://www.cse-lab.ethz.ch/images/software/tscratch_manual.pdf. Some
-troubleshooting hints are provided below.
+http://www.cse-lab.ethz.ch/wp-content/uploads/2017/12/tscratch_manual.pdf.
+Some troubleshooting hints are provided below.
 
 =======================================
 
@@ -25,7 +25,7 @@ Please download the proper file and extract it using Archive Utility
 (tscratch_nomcr_pkg.zip - a version which requires the user to have Matlab
 Compiler Runtime (MCR) v7.8 installed (3 MB), tscratch_pkg_simple.zip - a
 stand-alone application, includes MCR (206 MB)). The second file can be downloaded
-from here: http://www.cse-lab.ethz.ch/images/software/tscratch_pkg_simple.zip.
+from here: http://www.cse-lab.ethz.ch/wp-content/uploads/2017/12/tscratch_pkg_simple.zip.
 Open TScratch_manual.pdf and read further installation instructions there. The installation procedure was
 developed by Will Ashby, Vanderbilt University.
 
@@ -42,7 +42,7 @@ Please download the proper file and extract it (tscratch_nomcr_win.zip - a
 version which requires the user to have Matlab Compiler Runtime (MCR) v7.8
 installed (3 MB), tscratch_win.zip - a stand-alone application, includes MCR
 (231 MB)). The second file can be downloaded from here:
-http://www.cse-lab.ethz.ch/images/software/tscratch_win.zip. 
+http://www.cse-lab.ethz.ch/wp-content/uploads/2017/12/tscratch_win.zip. 
 Then double-click on TScratch_win.exe to unpack the program and
 install MCR (if the version with MCR was downloaded). Then run TScratch.exe to
 start the program. To the best of our knowledge the software works in Windows
@@ -75,7 +75,7 @@ source code package for further instructions.
 Sample data set
 
 This zip-file contains a sample data set from a wound-healing experiment:
-[tscratch_sampledata.zip](http://www.cse-lab.ethz.ch/images/software/tscratch_sampledata.zip) (5 MB).
+[tscratch_sampledata.zip](http://www.cse-lab.ethz.ch/wp-content/uploads/2017/12/tscratch_sampledata.zip) (5 MB).
 Download and unpack it to try out the TScratch program on some real data.
 
 =======================================
